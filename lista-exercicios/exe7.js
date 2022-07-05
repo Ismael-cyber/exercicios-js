@@ -11,13 +11,14 @@ function Bhaskara(ax2, bx, c) {
     if(delta < 0 ) {
         console.log('Delta é Negativo')
     } else {
-        var raizDelta = Math.sqrt(delta)
-        var resultadoX1 = (- bx + raizDelta) / (2 * ax2)
-        var resultadoX2 = (- bx - raizDelta) / (2 * ax2)
+        let raizDelta = Math.sqrt(delta)
+        let resultadoX1 = (- bx + raizDelta) / (2 * ax2)
+        let resultadoX2 = (- bx - raizDelta) / (2 * ax2)
+        
+        return console.log('Resultado de Delta: ' + raizDelta), 
+               console.log('Resultado de x¹: ' + resultadoX1), 
+               console.log('Resultado de x²: ' + resultadoX2) 
     }
-    return console.log('Resultado de Delta: ' + raizDelta), 
-           console.log('Resultado de x¹: ' + resultadoX1), 
-           console.log('Resultado de x²: ' + resultadoX2) 
 }
 
 Bhaskara(2, -16, -18)

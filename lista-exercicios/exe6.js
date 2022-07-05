@@ -10,7 +10,7 @@ function CalcularJuroSimples(cap, i, t) {
     return console.log(calculo), console.log(valor + calculo)
 }
 
-//CalcularJuroSimples(1200, 0.02, 14)
+CalcularJuroSimples(1200, 0.02, 14)
 
 function CalcularJuroComposto(cap, i, t) {
     const montante = (cap * (1 + i)**t) 
